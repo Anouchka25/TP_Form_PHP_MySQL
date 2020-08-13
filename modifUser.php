@@ -51,6 +51,11 @@ if(!empty($_POST['identifiant'])){
     echo "<input type=\"numeric\" name=\"identifiant\" readonly =\"true\" value=\"$coord[0]\">";
     ?>
     <br><br>
+    <label>Nom:</label>
+        <?php
+         echo "<input type=\"text\" name=\"nom\" value=\"$coord[1]\">";
+         ?>
+    <br><br>
         <input type="submit" name="valider" value=" Modifier "> &nbsp&nbsp&nbsp
         <input type="reset" value="Annuler">
       
