@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `utilisateurs` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `nom` varchar(25) NOT NULL,
   `prenom` varchar(25) NOT NULL,
-  `date` date NOT NULL,
+  `ladate` date NOT NULL,
   `lieu` varchar(25) NOT NULL,
   `adressepostale` text NOT NULL,
   `cp` int(11) NOT NULL,
